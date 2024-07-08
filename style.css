@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    margin-top: 20px;
+}
+
+#banner{
+    background-image: url(img/banner/banner1.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+}
+.rrr{
+    width: 100%;
+    text-align: right;
+    padding-right: 100px;
+}
+.one{
+    font-size:50px;
+}
+.para{
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    background: tomato;
+    color: #ffff;
+    border-radius: 50px 10px;
+}
+.btn:hover{
+    background: purple;
+    cursor:pointer;
+    transition:1s ;
+    font-size: 20px;
+    width: 130px;
+}
+
+.person{
+    display: flex;
+}
+img{
+    width: 400px;
+    height: 450px;
+    margin-left: 150px;
+}
+.second{
+    text-align: justify;
+    margin-top: 10%;
+    padding: 60px;
+    margin-left: 120px;
+}
+.aaa{
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.para-2{
+    margin-top: 20px;
+    line-height: 20px;
+}
+.third{
+    
+    display: flex;
+     
+    
+    justify-content: center;
+}
+
+
+.third img{
+    width: 70px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.line{
+    margin-top: 25px;
+    width: 300px;
+    text-align: center;
+}
+.plans{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+}
+.watch{
+    background-image: url(img/watch.png);
+    background-repeat: no-repeat;
+    width: 80%;
+    /* height: 100vh; */
+    height: 300px;
+    position: relative;
+    top: 20px;
+    left: 130px;
+
+}
+.fourth{
+   padding: 50px;
+
+}
+.fourth h2{
+    font-size: 40px;
+    line-height: 50px;
+    color: rgb(4, 0, 255);
+}
+.call{
+    width: 110px;
+    height: 50px;
+    background-color:rgb(215, 195, 14);
+    color: red;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.fifth{
+    height: 400px;
+    display: flex;
+     margin: 40px;
+    padding: 180px;
+    background-color: rgb(10, 159, 132);
+    border-radius: 20px;
+}
+.side1 img{
+width: 50px;
+height: 50px;
+position: relative;
+right: 150px;
+top: 20px;
+margin-right: -140px;
+}
+.side1{
+    width: 100%;
+    position: relative;
+    bottom: 80px;
+
+}
+.side2{
+    position: relative;
+    bottom: 60px;
+    font-size: 20px;
+}
+.side2 input{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.side2 button{
+    width: 120px;
+    height: 50px;
+    margin: 10px;
+    background-color: #ffff;
+    color: orangered;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+}
+.Future{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
